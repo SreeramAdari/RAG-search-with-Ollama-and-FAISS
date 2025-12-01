@@ -1,0 +1,16 @@
+{"event": "app.start", "message": "file=C:\\Users\\sreer\\OneDrive\\Documents\\Project\\LLM\\file.docx", "model": "llama3:latest", "use_embed": true}
+file=C:\Users\sreer\OneDrive\Documents\Project\LLM\file.docx
+{"event": "read_file.ok", "path": "C:\\Users\\sreer\\OneDrive\\Documents\\Project\\LLM\\file.docx", "chars": 1451, "duration_s": 0.2074575424194336}
+read_file.ok
+{"event": "chunks.created", "num_chunks": 2}
+chunks.created
+{"event": "build_index.embedded", "secs": 51.13347840309143, "dim": 384, "chunks": 2}
+build_index.embedded
+{"event": "faiss.built", "n": 2}
+faiss.built
+{"event": "search.done", "query": "payment", "hits": 2}
+search.done
+{"event": "ollama.call.start", "model": "llama3:latest", "endpoint": "http://127.0.0.1:11434/api/generate"}
+ollama.call.start
+{"event": "ollama.call.ok", "answer_excerpt": "A payment-related question!\n\nAccording to Context 1, Issue ID 101, there was an issue with the payment gateway service causing transactions to decline despite sufficient balance. The transaction logs "}
+ollama.call.ok
